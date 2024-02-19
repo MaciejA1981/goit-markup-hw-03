@@ -1,0 +1,138 @@
+body {
+  color: #434455;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  background-color: #ffffff;
+  line-height: 1.5;
+}
+.section-primary {
+  background-color: #2e2f42;
+}
+.section-tertiary {
+  background-color: #f4f4fd;
+}
+.list-tertiary {
+  background-color: #ffffff;
+}
+.header-primary {
+  color: #ffffff;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.header-invisible {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.header-secondary {
+  color: #2e2f42;
+  background-color: #f4f4fd;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.header-tertiary {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.paragraph {
+  color: #434455;
+  letter-spacing: 0.02em;
+}
+ul {
+  list-style-type: none;
+}
+.nav {
+  background-color: #e7e9fc;
+}
+.address {
+  background-color: #e7e9fc;
+  font-style: normal;
+}
+.logo-header {
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-header:hover,
+.logo-header:focus {
+  color: black;
+}
+.logo-header-primary {
+  color: #2e2f42;
+}
+.page-nav .link {
+  color: #2e2f42;
+  text-decoration: none;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+}
+.page-nav .link:hover,
+.page-nav .link:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.page-contact .link {
+  color: #434455;
+  text-decoration: none;
+  letter-spacing: 0.02em;
+}
+.page-contact .link:hover,
+.page-contact .link:focus {
+  color: #404bbf;
+  text-decoration: underline;
+}
+.page-button {
+  color: #ffffff;
+  background-color: #4d5ae5;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.page-button:hover,
+.page-button:focus {
+  background-color: #404bbf;
+}
+.invisible {
+  color: #e7e9fc;
+}
+.logo-footer {
+  color: #4d5ae5;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+}
+.logo-footer:hover,
+.logo-footer:focus {
+  color: black;
+}
+.logo-footer-secondary {
+  color: #f4f4fd;
+}
+.footer-background {
+  background-color: #2e2f42;
+}
+.footer-item {
+  color: #f4f4fd;
+  letter-spacing: 0.02em;
+}
