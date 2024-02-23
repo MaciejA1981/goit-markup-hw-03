@@ -86,7 +86,6 @@ ul {
   display: flex;
   gap: 8px;
   flex-direction: row;
-  justify-content: flex-end;
 }
 .logo-header {
   color: #4d5ae5;
