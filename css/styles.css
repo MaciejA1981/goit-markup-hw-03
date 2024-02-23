@@ -148,6 +148,9 @@ ul {
   gap: 40px;
   padding: 24px 0;
 }
+.menu-padding {
+  padding: 24px 0;
+}
 .page-nav .link {
   color: #2e2f42;
   text-decoration: none;
@@ -240,6 +243,7 @@ ul {
   border-bottom: 1px solid #e7e9fc;
   padding: 0 15px;
   width: 1158px;
+  margin: 0 auto;
 }
 .solutions {
   display: flex;
