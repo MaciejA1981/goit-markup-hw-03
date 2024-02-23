@@ -39,6 +39,9 @@ body {
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
 }
+.list-tertiary-container {
+  padding: 32px 16px;
+}
 .header-primary {
   color: #ffffff;
   font-size: 56px;
@@ -80,10 +83,12 @@ body {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
+  text-align: center;
 }
 .paragraph {
   color: #434455;
   letter-spacing: 0.02em;
+  text-align: center;
 }
 ul {
   list-style-type: none;
