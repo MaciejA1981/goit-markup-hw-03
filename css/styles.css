@@ -17,6 +17,10 @@ body {
   align-items: center;
   justify-content: center;
   height: 600px;
+  padding: 188px 0;
+}
+.section-secondary {
+  padding: 120px 0;
 }
 .section-tertiary {
   background-color: #f4f4fd;
@@ -27,10 +31,13 @@ body {
   justify-content: center;
   margin-left: 156px;
   margin-right: 156px;
+  padding: 120px 0;
 }
 .list-tertiary {
   background-color: #ffffff;
   text-align: center;
+  width: calc((100% - 72px) / 4);
+  border-radius: 0px 0px 4px 4px;
 }
 .header-primary {
   color: #ffffff;
@@ -39,15 +46,21 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
-  width: 496px;
+  max-width: 496px;
   height: 120px;
   margin: 48px;
 }
-.header-invisible {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .header-secondary {
   color: #2e2f42;
@@ -58,6 +71,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  margin-bottom: 72px;
 }
 .header-tertiary {
   color: #2e2f42;
@@ -65,6 +79,7 @@ body {
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .paragraph {
   color: #434455;
@@ -154,9 +169,6 @@ ul {
 .page-button:focus {
   background-color: #404bbf;
 }
-.invisible {
-  color: #e7e9fc;
-}
 .logo-footer {
   color: #4d5ae5;
   text-decoration: none;
@@ -166,6 +178,8 @@ ul {
   font-weight: 700;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 .logo-footer:hover,
 .logo-footer:focus {
@@ -180,6 +194,7 @@ ul {
   flex-direction: column;
   height: 312px;
   justify-content: center;
+  padding: 100px 0;
 }
 .footer-item {
   color: #f4f4fd;
@@ -208,7 +223,7 @@ ul {
   margin-right: 156px;
 }
 .solutions-box {
-  width: 264px;
+  width: calc((100% - 72px) / 4);
   height: 104px;
 }
 .our-team {
