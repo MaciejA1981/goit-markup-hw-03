@@ -12,12 +12,16 @@ body {
 }
 .section-primary {
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .section-tertiary {
   background-color: #f4f4fd;
 }
 .list-tertiary {
   background-color: #ffffff;
+  text-align: center;
 }
 .header-primary {
   color: #ffffff;
@@ -59,10 +63,15 @@ ul {
 }
 .nav {
   background-color: #e7e9fc;
+  display: flex;
+  gap: 76px;
 }
 .address {
   background-color: #e7e9fc;
   font-style: normal;
+  display: flex;
+  gap: 8px;
+  flex-direction: row;
 }
 .logo-header {
   color: #4d5ae5;
@@ -81,6 +90,11 @@ ul {
 .logo-header-primary {
   color: #2e2f42;
 }
+.page-nav {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
+}
 .page-nav .link {
   color: #2e2f42;
   text-decoration: none;
@@ -91,6 +105,11 @@ ul {
 .page-nav .link:focus {
   color: #404bbf;
   text-decoration: underline;
+}
+.page-contact {
+  display: flex;
+  flex-direction: row;
+  gap: 40px;
 }
 .page-contact .link {
   color: #434455;
@@ -109,6 +128,8 @@ ul {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  width: 169px;
+  height: 56px;
 }
 .page-button:hover,
 .page-button:focus {
@@ -140,4 +161,25 @@ ul {
 .footer-item {
   color: #f4f4fd;
   letter-spacing: 0.02em;
+}
+.header-container {
+  display: flex;
+  flex-direction: row;
+  gap: 332px;
+}
+.solutions {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.our-team {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+}
+.our-portfolio {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  flex-wrap: wrap;
 }
