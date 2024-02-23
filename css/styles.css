@@ -15,9 +15,16 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  justify-content: center;
+  height: 600px;
 }
 .section-tertiary {
   background-color: #f4f4fd;
+  height: 732px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 .list-tertiary {
   background-color: #ffffff;
@@ -30,6 +37,8 @@ body {
   line-height: 1.07;
   text-align: center;
   letter-spacing: 0.02em;
+  width: 496px;
+  height: 120px;
 }
 .header-invisible {
   font-weight: 500;
@@ -65,6 +74,7 @@ ul {
   background-color: #e7e9fc;
   display: flex;
   gap: 76px;
+  align-items: baseline;
 }
 .address {
   background-color: #e7e9fc;
@@ -72,6 +82,7 @@ ul {
   display: flex;
   gap: 8px;
   flex-direction: row;
+  justify-content: flex-end;
 }
 .logo-header {
   color: #4d5ae5;
@@ -157,29 +168,50 @@ ul {
 }
 .footer-background {
   background-color: #2e2f42;
+  display: flex;
+  flex-direction: column;
+  height: 312px;
+  justify-content: center;
 }
 .footer-item {
   color: #f4f4fd;
   letter-spacing: 0.02em;
 }
+.footer-box {
+  width: 264px;
+  height: 112px;
+}
 .header-container {
   display: flex;
   flex-direction: row;
   gap: 332px;
+  align-items: baseline;
+  background-color: #e7e9fc;
 }
 .solutions {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  justify-content: space-evenly;
+}
+.solutions-box {
+  width: 264px;
+  height: 104px;
 }
 .our-team {
   display: flex;
   flex-direction: row;
   gap: 24px;
+  justify-content: center;
+  height: 500px;
 }
 .our-portfolio {
   display: flex;
   flex-direction: row;
   gap: 24px;
   flex-wrap: wrap;
+  width: 1200px;
+  height: 1000px;
+  align-content: center;
+  justify-content: center;
 }
