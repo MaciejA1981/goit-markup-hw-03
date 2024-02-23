@@ -10,6 +10,9 @@ body {
   background-color: #ffffff;
   line-height: 1.5;
 }
+.image-container {
+  display: block;
+}
 .section-primary {
   background-color: #2e2f42;
   display: flex;
