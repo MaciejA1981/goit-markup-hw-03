@@ -104,6 +104,9 @@ ul {
 .section-primary {
   background-color: #2e2f42;
   padding: 188px 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 .header-primary {
   color: #ffffff;
