@@ -28,16 +28,14 @@ ul {
   max-width: 100%;
   height: auto;
 }
-.container {
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
 .header-border {
   border-bottom: 1px solid #e7e9fc;
 }
 .header-container {
   display: flex;
+  max-width: 1158px;
+  padding: 0 15px;
+  margin: 0 auto;
 }
 .logo-header {
   color: #4d5ae5;
