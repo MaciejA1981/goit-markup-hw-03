@@ -86,6 +86,10 @@ ul {
   display: flex;
   gap: 40px;
 }
+.page-contact {
+  display: flex;
+  gap: 40px;
+}
 .page-contact .link {
   color: #434455;
   text-decoration: none;
@@ -168,6 +172,7 @@ ul {
 }
 .section-tertiary {
   background-color: #f4f4fd;
+  padding: 120px 0;
 }
 .list-tertiary {
   background-color: #ffffff;
@@ -208,6 +213,7 @@ ul {
 }
 .section-quaternary {
   padding-top: 120px;
+  padding-bottom: 120px;
 }
 .list-quaternary {
   display: flex;
