@@ -226,7 +226,6 @@ ul {
 .paragraph-quaternary-item {
   color: #434455;
   letter-spacing: 0.02em;
-  text-align: center;
 }
 .header-quaternary {
   color: #2e2f42;
@@ -238,6 +237,14 @@ ul {
   letter-spacing: 0.02em;
   text-transform: capitalize;
   margin-bottom: 72px;
+}
+.header-quaternary-item {
+  color: #2e2f42;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  margin-bottom: 8px;
 }
 .header-secondary {
   color: #2e2f42;
