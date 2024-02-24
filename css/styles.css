@@ -206,6 +206,39 @@ ul {
   letter-spacing: 0.02em;
   text-align: center;
 }
+.section-quaternary {
+  padding-top: 120px;
+}
+.list-quaternary {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 24px;
+  row-gap: 48px;
+}
+.list-quaternary-item {
+  width: calc((100% - 48px) / 3);
+}
+.portfolio-box {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+.paragraph-quaternary-item {
+  color: #434455;
+  letter-spacing: 0.02em;
+  text-align: center;
+}
+.header-quaternary {
+  color: #2e2f42;
+  background-color: #f4f4fd;
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  margin-bottom: 72px;
+}
 .header-secondary {
   color: #2e2f42;
   background-color: #f4f4fd;
