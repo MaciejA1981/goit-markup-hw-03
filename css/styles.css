@@ -131,6 +131,7 @@ ul {
   height: 56px;
   border: none;
   border-radius: 4px;
+  margin-left: 162px;
 }
 .page-button:hover,
 .page-button:focus {
@@ -157,12 +158,6 @@ ul {
 }
 .list-secondary-item {
   width: calc((100% - 72px) / 4);
-}
-.header-invisible {
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
 }
 .header-secondary-item {
   color: #2e2f42;
