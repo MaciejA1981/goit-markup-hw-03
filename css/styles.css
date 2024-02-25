@@ -35,14 +35,10 @@ ul {
 }
 .header-colors {
   border-bottom: 1px solid #e7e9fc;
-  background-color: #ffffff;
 }
 .header-container {
   display: flex;
-  max-width: 1158px;
-  padding: 0 15px;
-  margin: 0 auto;
-  gap: 300px;
+  align-items: center;
 }
 .logo-header {
   color: #4d5ae5;
@@ -64,19 +60,21 @@ ul {
   color: #2e2f42;
 }
 .nav {
-  background-color: #ffffff;
   display: flex;
   align-items: center;
+  margin-right: auto;
 }
 .page-nav {
   display: flex;
   gap: 40px;
+  padding: 24px 0;
 }
 .page-nav .link {
   color: #2e2f42;
   text-decoration: none;
   font-weight: 500;
   letter-spacing: 0.02em;
+  display: block;
 }
 .page-nav .link:hover,
 .page-nav .link:focus {
@@ -87,12 +85,7 @@ ul {
   padding: 24px 0;
 }
 .address {
-  background-color: #ffffff;
   font-style: normal;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  gap: 40px;
 }
 .page-contact {
   display: flex;
